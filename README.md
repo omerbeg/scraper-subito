@@ -107,7 +107,7 @@ This software accepts the following commands
 
 ```shell
 $ node index.js -u <url> -p <number of pages to scrape>
-# Fetches all the listings for specified category and for number of pages, saves the result in csv files (one cvs file per page).
+# Fetches all the listings for specified category and for number of pages, prints the datastructure on stdout).
 ```
 
 ### Changelog
