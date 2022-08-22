@@ -110,23 +110,5 @@ $ node index.js -u <url> -p <number of pages to scrape>
 # Fetches all the listings for specified category and for number of pages, saves the result in csv files (one cvs file per page).
 ```
 
-```shell
-$ node scrapeListing -u <url>
-# Fetches specific listing from the website
-```
-
-#### Singe ad fetch by url
-
-```shell
-$ node scrapeListing -u <url>
-# Fetches a single ad by their url
-```
-
-#### Massive ad fetch by url and pages
-
-```shell
-$ node index.js -u <url> -p <number of pages>
-# Fetches all the links from the specific url, fetches the pagination, goes over all the urls for specific pages and saves the result in csv files.
-
 ### Changelog
-
+[0.0.1]Intitial version
