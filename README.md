@@ -1,7 +1,7 @@
-# Node.js scrapper for klikdooglasa.com
-#### Specialized version for Oglasi.com
+# Node.js scrapper for subito.it
+#### Specialized version
  
-This project is a Node.js piece of software which fetches classified ads from the subito website and stores them in structured way for further use.
+This project is a Node.js piece of software which fetches classified ads from the subito.it website and stores them in structured way for further use.
 
 The entire project, its setup and its use is covered on the sections below.
 
