@@ -111,4 +111,4 @@ $ node index.js -u <url> -p <number of pages to scrape>
 ```
 
 ### Changelog
-[0.0.1]Intitial version
+[0.0.1] - 22.08.2022 - Intitial version
