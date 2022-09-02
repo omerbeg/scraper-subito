@@ -57,11 +57,13 @@ async function scrapeListingsTitleUrl(listingsPageUrl, page) {
         })
         .get();
 
-    console.log(listings);
+    //console.log(listings);
 
     return listings;
 
 };
+
+
 
 async function main() {
     
@@ -88,7 +90,15 @@ async function main() {
             } 
             console.log("Scraping listings and url from page: " + pagedListingUrls[i] +"\n");
             const listings = await scrapeListingsTitleUrl(pagedListingUrls[i], page);
-            console.log(listings);
+            listings.forEach((listing, index) => {
+                if (typeof(listing.adsUrl) != "undefined" && listing.adsTitle.length>0) {
+                    console.log(
+                        "Titel:" + listing.adsTitle + "\n" +
+                        "Link :" + listing.adsUrl   + "\n" +
+                        "Price:" + listing.adsPrice + "   " + "Zeit:" + listing.adsTime +"\n" 
+                    );
+                }
+            });
         };
         // end
         await browser.close();
