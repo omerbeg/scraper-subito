@@ -53,7 +53,7 @@ The aforementioned article also covers the `nvm` - the _node version manager_ - 
 First, you need to clone the repository on your machine with the following command:
 
 ```shell
-$ git clone git@github.com:oglasi-com/scraper-klikdooglasa.git
+$ git clone git@github.com:omerbeg/scraper-subito.git
 ```
 When you have cloned the project, to update changes, it's best to rebase the entire branch on your machine with the following:
 
